@@ -1,0 +1,80 @@
+:root {
+  --s-color: #2a9d8f;
+}
+.color-body {
+  height: auto;
+}
+html {
+  font-family: "Roboto", sans-serif;
+}
+.font {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+.dates-count {
+  color: #5555;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.btn-style {
+  border-radius: 8px;
+  border: none;
+  color: rgba(0, 0, 0, 0.575);
+  /* border: 1px solid #198754; */
+  transition: ease-in 0.2s;
+}
+.btn-style:hover {
+  background-color: var(--s-color);
+  color: white;
+}
+.item-description {
+  color: #8c8c8c;
+  font-size: 16px;
+  line-height: 20px;
+}
+.item-title {
+  color: #555555;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 20px;
+}
+.itme-price {
+    color: #b45b35;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+}
+.color-logo {
+  color: var(--s-color);
+}
+.title {
+  color: var(--s-color);
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 64px;
+}
+.inderline {
+  height: 1px;
+  width: 200px;
+  border-radius: 10px;
+  border: 2px solid #198754;
+}
+button {
+  box-shadow: 2px 2px 5px rgba(32, 69, 66, 0.432);
+}
+.img-carde {
+  border-radius: 5px;
+  height: 150px;
+  width: 200px;
+}
+.card{
+  box-shadow: 2px 2px 5px rgba(32, 69, 66, 0.432);
+  transition: ease-in 0.2s;
+}
+
+
+.crad:hover{
+  background-color:#2a9d8f; 
+  text-decoration: black;
+}
